@@ -1,0 +1,19 @@
+{
+    "name": "infusionsoft/php-isdk",
+    "description": "Infusionsoft PHP-isdk",
+    "authors": [
+        {
+            "name": "Justin Morris",
+            "email": "jimit.it@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		 "php": ">=5.2.0",
+	},
+	"autoload": {
+        "psr-0": {
+            "iSDK": "src/"
+        }
+    }
+}

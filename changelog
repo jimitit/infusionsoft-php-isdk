@@ -1,0 +1,16 @@
+***Changelog***
+***************
+1.8.6 (Date: 11-20-2013)
+    Removed Support for MortgageProCRM
+    Updated composer with more information
+    Added new method; DataService.count
+
+1.8.5 (Date: 10-26-2013)
+    Fixed issue with running scripts using CLI
+    Fixed issue with infuDate() and UK date formatted apps
+
+1.8.3 (Date: 5-30-2013)
+    Cleaned up the SDK. Made it more readable
+    Added the ability for debug logging to a CSV
+    Added Readme
+******************************************************************************
