@@ -3,8 +3,7 @@
     "description": "Infusionsoft PHP-isdk",
     "authors": [
         {
-            "name": "Justin Morris",
-            "email": "jimit.it@gmail.com"
+            "name": "Justin Morris"
         }
     ],
     "minimum-stability": "dev",
