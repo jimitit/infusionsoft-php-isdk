@@ -10,18 +10,19 @@
     "require": {
          "php": ">=5.2.0"
     },
+
     "repositories": [
-    {
+        {
             "type": "package",
             "package": {
                 "name": "jimitit/infusionsoft-php-isdk",
                 "version": "dev-master",
                 "source": {
-                    "url": "https://github.com/jimitit/infusionsoft-php-isdk.git",
-                    "type": "vcs",
-                    "reference": "master"
+                    "url": "https://github.com/jimitit/infusionsoft-php-isdk",
+                    "type": "git",
+                    "reference": "origin/master"
                 },
-                 "autoload": {
+                "autoload": {
                     "psr-0": {
                         "iSDK": "src/"
                     }
