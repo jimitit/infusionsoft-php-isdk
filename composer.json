@@ -8,28 +8,11 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.2.0",
-        "jimitit/infusionsoft-php-isdk": "*"
+         "php": ">=5.2.0"
     },
-
-    "repositories": [
-    {
-            "type": "package",
-            "package": {
-                "name": "jimitit/infusionsoft-php-isdk",
-                "version": "dev-master",
-                "type": "package",
-                "source": {
-                    "url": "git@github.com/jimitit/infusionsoft-php-isdk.git",
-                    "type": "git",
-                    "reference": "master"
-                },
-                "autoload": {
-                    "psr-0": {
-                        "iSDK": "src/"
-                    }
-                }
-            }
+    "autoload": {
+        "psr-0": {
+            "iSDK": "src/"
         }
-    ],
+    }
 }
